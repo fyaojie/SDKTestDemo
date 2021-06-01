@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SDKTestDemo_Example' do
+  pod 'SDKTestDemo', :path => '../'
+
+  target 'SDKTestDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
